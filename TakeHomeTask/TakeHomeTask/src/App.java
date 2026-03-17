@@ -17,12 +17,6 @@ public class App {
         System.out.println("Masukkan Pilihan Anda : "); 
         int pilih = input.nextInt();
 
-        if(pilih == 4){
-                MesinOn = false;
-                System.out.println("Mesin dimatikan.");
-                break;
-            }
-        
         int stok = 0;
         int harga = 0;
 
